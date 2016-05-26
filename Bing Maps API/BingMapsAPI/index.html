@@ -1,0 +1,33 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Search the World using Bing Maps API!</title>
+    <meta charset="utf-8" />
+    <!--*** Add your source code here ***-->
+    <script type="text/javascript" src="js/mapControl.js">
+    </script>
+</head>
+<body margin="0" padding="0" bgcolor="#263f5e" text="#FFFFFF">
+
+    <center>
+        <h1>Search the World using Bing Maps API!</h1>
+
+        <div id='mapDiv' style="position:relative; width:800px; height:600px;"></div>
+        <p><h3>Enter details into one of the following Search Criteria and click "Search":</h3></p>
+        <label for="txtWhat"><i><b>Option 1:</b> Find something specific (eg. Pizza, Schools, etc.) in a Location</i></label><br />
+        Search for: <input id="txtWhat" type="text" value="Pizza" />
+        <label for="txtWhere">Where:</label>
+        <input id="txtWhere" type="text" value="Portland" />
+        <input id="btnSearch" type="button" value="Search" disabled />
+        <br /><br />
+        <label for="txtQuery"><i><b>Option 2:</b> Search for a location or address</i> <br /></label>
+        <input id="txtQuery" type="text" value="Portland, OR" />
+        <input id="btnGeocode" type="button" value="Search" disabled />
+        <br /><br />
+        <label for="txtDataSource"><i><b>Option 3:</b> Find Coffee Shops in a location</i></label><br />
+        Find Coffee Shops in:
+        <input id="txtDataSource" type="text" value="Portland, OR" />
+        <input id="btnDataSource" type="button" value="Search" disabled />
+    </center>
+</body>
+</html>
