@@ -38,6 +38,9 @@ Remember where you save these files, so you can find them again in Visual Studio
 ## How do I help?
 Read up further on [contributing here](https://github.com/Microsoft/Imagine_bing-maps-api/blob/master/CONTRIBUTING.md).
 
+## Code of Conduct
+This project has adopted the [Microsoft Open Source Code of Conduct](http://microsoft.github.io/codeofconduct). For more information see the [Code of Conduct FAQ](http://microsoft.github.io/codeofconduct/faq.md) or contact [opencode@microsoft.com](mailto:opencode@microsoft.com) with any additional questions or comments. 
+
 ## LICENSE
 
 Bing Maps API activity
